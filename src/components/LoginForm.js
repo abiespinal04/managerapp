@@ -79,6 +79,7 @@ class LoginForm extends Component {
                    label="Password"
                    placeholder="password"
                    onChangeText={this.onPasswordChanged.bind(this)}
+                   value={this.props.password}
                    />
                </CardSection>
                 {this.renderErrorOrSuccess()}
